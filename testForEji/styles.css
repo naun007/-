@@ -1,0 +1,52 @@
+.mahorka {
+    color: aqua;
+    font-size: 50px;
+}
+
+.mahorka-wrapper {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.mahorka-button {
+    display: flex;
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    border: 0;
+}
+body {
+    background: black;
+    padding: 20% 10%;
+    overflow-x: hidden;
+}
+.mahorka {
+    min-width: 268px
+}
+
+.mahorka-not-funny {
+    color: #fff;
+    font-size: 24px;
+    transition: .3s;
+    opacity: 1;
+}
+.mahorka-not-funny.mahorka-not-funny--hidden {
+    opacity: 0;
+}
+
+.baldurs-brick {
+    position: absolute;
+    bottom: -250px;
+    right: 150px;
+    transition: 300ms;
+    filter: blur(200px);
+    transform: translateY(100%);
+    
+}
+
+.baldurs-brick--top {
+    filter: blur(0);
+    transform: translateY(0);
+}
